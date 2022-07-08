@@ -1,0 +1,107 @@
+
+
+body {
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1,h2,h3,
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 150px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.button {
+  color: white;
+  background-color: rgb(124, 22, 126);
+  border: 2px solid rgb(124, 22, 126);
+  padding: 8px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+
+}
+
+
+.button:hover {
+border: 2px solid transparent;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+transform: scale(1.05)
+}
+.galeria {
+ 
+  margin-left: 10px;
+  margin-right: 10px;
+  
+
+}
+
+.galeria .col-3 {
+ display: inline-block;
+ margin: 40px;
+
+}
+
+.galeria h2 {
+
+  padding: 20px;
+  text-transform: uppercase;
+  text-shadow:2px 2px 8px #d4d4d4;
+  color: #a704a7;
+}
+p {
+  font-family: "Cousine", monospace;
+  text-align: center;
+}
+.card-body {
+  background-color: rgb(255, 227, 251);
+}
+
+footer h3 {
+
+  margin: 18px;
+}
+
+.contacto h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contacto button {
+  margin-top: 20px;
+}
+
+.mb-3{
+padding: 20px;
+}
+
+.box {
+  margin: 0 auto;
+}
