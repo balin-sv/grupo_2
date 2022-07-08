@@ -2,6 +2,7 @@
 
 body {
   background-color: antiquewhite;
+  color: #9f0564;
 }
 
 a {
@@ -19,6 +20,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   list-style-type: none;
+  color: #a704a7;
 }
 
 .header nav ul {
