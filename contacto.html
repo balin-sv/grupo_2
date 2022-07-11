@@ -17,22 +17,24 @@
 </head>
 
 <body onload="display()">
-    <header>
-        <h1> Te lo Vendo </h1>
+  <header>
+    <h1> Te lo Vendo </h1>
+    <h1> Contactos</h1>
+    <nav class="navbar navbar-expand-lg" style="background-color: #c275ff">
 
-        <nav class="navbar navbar-expand-lg" style="background-color: #c275ff">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"> Inicio</a>
+            <a class="nav-link" href="Productos.html">Productos</a>
+            <a class="nav-link" href="centrodecompras.html">Centro de compras</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
 
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Menu</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="index.html"> Inicio</a>
-                  <a class="nav-link" href="Productos.html">Productos</a>
-                  <a class="nav-link" href="centrodecompras.html">Centro de compras</a>
-                  <a class="nav-link" href="contacto.html">Contacto</a>
 
                   
                 </div>
@@ -51,48 +53,66 @@
             <label for="exampleFormControlInput1" class="form-label">Email</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Escribe tu comentario</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-            <button class="btn btn-primary" type="submit">Enviar</button>
-          </div>
-
-    </div>
-    <div class="box card bg-info w-25 d-flex justify-content-around mt-3 mb-3">
-      <div class="card-body">
-        <div>
-          <h4>Fecha</h4>
-          <strong id='date'></strong>
-        </div>
-        <hr />
-        <div>
-          <h4>Hora</h4>
-          <strong id='time'></strong>
         </div>
       </div>
+
+    </nav>
+
+  </header>
+
+  <div class="contacto">
+
+    <h2>Formulario de Contacto</h2>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
-    <footer>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Escribe tu comentario</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
-        <h3> Redes sociales </h3>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </div>
 
-        <li><a href="https://www.facebook.com/" target="_blank"> Facebook </a> </li>
+  </div>
+  <div class="box card bg-info w-25 d-flex justify-content-around mt-3 mb-3">
+    <div class="card-body">
+      <div>
+        <h4>Fecha</h4>
+        <strong id='date'></strong>
+      </div>
+      <hr />
+      <div>
+        <h4>Hora</h4>
+        <strong id='time'></strong>
+      </div>
+    </div>
+  </div>
+  <footer>
 
-        <li><a href="https://www.google.com/" target="_blank"> Google </a> </li>
+    <h3> Redes sociales </h3>
+
+    <li><a href="https://www.facebook.com/" target="_blank"> Facebook </a> </li>
+
+    <li><a href="https://www.google.com/" target="_blank"> Google </a> </li>
 
         <p>Catalina Godoy <br>
             Marta Alcázar Redondo <br>
             Sebastian García Guerrero <br>
             Ulises Leiva <br>
             Constanza Henriquez <br>
+            Svetlana Blizniakova <br>
             2022
         </bt></p>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-    <script src="assets/js/fechaYhora.js">
-      <h1 id="hora"></h1>
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="assets/js/fechaYhora.js">
+    <h1 id="hora"></h1>
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 
 </body>
