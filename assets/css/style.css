@@ -2,7 +2,7 @@
 
 body {
   background-color: antiquewhite;
-  color: #9f0564;
+  color: #cb1d88;
 }
 
 a {
@@ -10,17 +10,38 @@ a {
 }
 
 h1 {
-  padding: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  
+    color: hsl(0, 0%, 28%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(310, 85%, 38%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
 
-h1,h2,h3,
-footer {
+h1,h2,h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   list-style-type: none;
-  color: #a704a7;
+  color: #6e026e;
 }
 
 .header nav ul {
@@ -36,6 +57,7 @@ nav {
   display: flex;
   flex-direction: row;
   float: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .button {
@@ -106,4 +128,11 @@ padding: 20px;
 
 .box {
   margin: 0 auto;
+}
+
+footer {
+  background-color: #be8cbe;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white
 }
