@@ -106,6 +106,9 @@ p {
 }
 .card-body {
   background-color: rgb(255, 227, 251);
+   display: flex;
+   flex-wrap: wrap;
+   display: inline-block;
 }
 
 footer h3 {
@@ -122,9 +125,7 @@ footer h3 {
   margin-top: 20px;
 }
 
-.mb-3{
-padding: 20px;
-}
+
 
 .box {
   margin: 0 auto;
